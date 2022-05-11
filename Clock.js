@@ -2,7 +2,7 @@ sap.ui.define([
 	"sap/ui/core/Control"
 ], function (Control) {
 	"use strict";
-	return Control.extend("dzbw.terminal.control.Clock", {
+	return Control.extend("<namespace>.terminal.control.Clock", {
 		metadata : {
 		},
 		onAfterRendering : function () {
